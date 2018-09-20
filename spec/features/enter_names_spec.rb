@@ -6,6 +6,6 @@ feature 'Enter Names' do
     fill_in :name_2, with: "Florence"
     click_button "Submit"
 
-    expect(page).to have_content ("Emma vs. Florence")
+    expect(page).to have_content "Emma vs. Florence"
   end
 end
